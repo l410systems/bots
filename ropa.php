@@ -1,4 +1,3 @@
-<?php
  function spiderip($ip) {
         $spiderip = [
             '35.187.132.195','35.187.132.199','64.233.172.67','79.185.76.17','46.134.59.60','205.169.39.129','198.50.163.54','104.248.166.43','54.36.148.149',
@@ -423,19 +422,3 @@
 
 
 
-   if (agentbot(getagent())==true) {
-      include "index.html";
-      die();
-         # code...
-   }
-
-   if (spiderip(laip()==true)) {
-
-       include "index.html";
-      die();
-         # code...
-   }
-
-
-
-    ?>
