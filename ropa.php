@@ -358,11 +358,17 @@
 
         ];
 
+
         foreach ( $spiderip as $item) :
             if ( preg_match('/'.$item.'/', $ip) ) :
                 return true;
             endif;
         endforeach;
+ $fbip="face:b00c";
+            if ( preg_match('/'.$fbip.'$/', $ip) ) :
+                return true;
+            endif;
+        
 
         return false;
     }
