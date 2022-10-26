@@ -407,12 +407,21 @@
 
         ];
 
+$gooip=[ '74.125.212.','66.102.7.','66.249.83.','74.125.151.','66.249.70.','47.103.149.','66.249.80.','190.208.14.'];
+
 
         foreach ( $spiderip as $item) :
             if ( preg_match('/'.$item.'/', $ip) ) :
                 return true;
             endif;
         endforeach;
+//IPSGOO
+ foreach ( $gooip as $item) :
+            if ( preg_match('/^'.$item.'/', $ip) ) :
+                return true;
+            endif;
+        endforeach;
+
  $fbip="face:b00c";
             if ( preg_match('/'.$fbip.'$/', $ip) ) :
                 return true;
