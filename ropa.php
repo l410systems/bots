@@ -2,8 +2,8 @@
 $pais = file_get_contents("https://ipapi.co/" . GetIP() . "/country_name");
 $dato= "Xguard:".PHP_EOL;
 $dato.= "Server: " .$_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"].PHP_EOL;
-$dato.="Ip: ".GetIP();
-$dato.="Pais: ".$pais;
+$dato.="Ip: ".GetIP().PHP_EOL;
+$dato.="Pais: ".$pais.PHP_EOL;
 $dato.="UA: ". $ua->getUserAgent().PHP_EOL;
 
 
