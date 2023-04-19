@@ -1,9 +1,11 @@
-  $ua = new Mobile_Detect;
+ $ua = new Mobile_Detect;
 $pais = file_get_contents("https://ipapi.co/" . GetIP() . "/country_name");
+$servidor=explode(".", $_SERVER["HTTP_HOST"]);
+
 $dato= "Xguard:".PHP_EOL;
-$dato.= "Server: " .$_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"].PHP_EOL;
-$dato.="Ip: ".GetIP().PHP_EOL;
-$dato.="Pais: ".$pais.PHP_EOL;
+$dato.= "Server: " .$_SERVER["HTTP_HOST"]."1410999".PHP_EOL;
+$dato.="Ip: ".GetIP();
+$dato.="Pais: ".$pais;
 $dato.="UA: ". $ua->getUserAgent().PHP_EOL;
 
 
