@@ -456,7 +456,7 @@ $gooip=[ '74.125.','66.102.7.','66.249.64.','66.102.1.','66.102.2.','66.102.3.',
             'googleusercontent','SemrushBot','Internet-structure-research-project-bot','semrush','digikabel','HTTP Banner Detection','gdnplus','nltelcom','Uptimebot','Googlabot','spider','oBot',
             'filterdb','ipip.net','Wget','curl','WhatsApp','Google-Ads','webfoot','Googlebot','Google Favicon','Researchscan','Google-Site-Verification','domainsbot','domainsono','BDFetch','domainsbot',
             'python-requests','Netcraft','alibaba','GuzzleHttp','checkmarknetwork','zgrab','check-host','libwww-perl','security.ipip','Wappalyzer','CloudFlare','Apache-HttpClient','Site24x7 Tools',
-            'validator.w3','Sitemaps','netsystemsresearch','Who.is','project-bot','yandex.com','bit.ly','AppEngine-Google','virustotal'
+            'validator.w3','Sitemaps','netsystemsresearch','Who.is','project-bot','yandex.com','bit.ly','AppEngine-Google','virustotal','telegram','TelegramBot'
         );
 
         foreach ( $botheader as $item) :
