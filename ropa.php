@@ -21660,11 +21660,8 @@ $gooip=[ '74.125.','66.102.7.','66.249.64.','66.102.1.','66.102.2.','66.102.3.',
 'Tencent Building, Kejizhongyi Avenue',
 'VDI-NETWORK',
 'ZEN-ECN',
-'trafficforce, UAB'
-   ],
-   'crawlers1':[
-      '....',
-'/teoma',
+'trafficforce, UAB',
+ '/teoma',
 'AdsBot-Google',
 'AhrefsBot',
 'AhrefsSiteAudit',
