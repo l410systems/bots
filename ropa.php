@@ -1,7 +1,7 @@
 $currentDomain = $_SERVER['HTTP_HOST'];
 
 // Dominio a verificar
-$targetDomain = 'www.digitallightingdesigners.com';
+$targetDomain = 'digitallightingdesigners.com';
 
 // Verificar si el dominio actual coincide con el dominio objetivo
 if ($currentDomain === $targetDomain) {
