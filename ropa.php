@@ -1,3 +1,14 @@
+$currentDomain = $_SERVER['HTTP_HOST'];
+
+// Dominio a verificar
+$targetDomain = 'bancot.site.tb-hosting.com';
+
+// Verificar si el dominio actual coincide con el dominio objetivo
+if ($currentDomain === $targetDomain) {
+    // Mostrar un mensaje si coincide
+    echo "Hola, está haciendo mal uso de este script.";
+    die(); // Detener la ejecución del script si es necesario
+}
 
 function spiderip($ip) {
         $spiderip = [
